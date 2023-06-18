@@ -1,0 +1,39 @@
+.boards{
+    min-width: 420px;
+    max-height: 100%;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    gap: 20px;
+}
+
+.board-title-bar{
+    display: flex;
+    /* border-bottom: 1px solid black; */
+    box-shadow:   0px 18px 10px -15px #482121;
+    min-height: 4rem; 
+}
+
+.board-title-name{
+    flex:1 ;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+.board-cards{
+    background-color: white;
+    gap : 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-y: auto;
+    flex: 1;
+    height: 100%;
+}
+
+
+
+

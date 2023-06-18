@@ -1,0 +1,11 @@
+.chip{
+    background-color: #F1C27B;
+    border-radius: 11px;
+    max-width: fit-content;
+    /* max-height: fit-content; */
+    display: flex;
+    gap: 10px;
+    padding: 4px 8px;
+    align-items: center;
+    font-size: 14px;
+}
